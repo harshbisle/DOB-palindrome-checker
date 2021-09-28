@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --background: rgb(255, 242, 246);
+    --text: #008080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0 1rem;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+header {
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.github {
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0rem auto 2rem;
+    text-align: center;
+}
+
+.details {
+    margin: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 11rem;
+    border: 2px solid var(--text);
+    border-radius: 0.2rem;
+    outline: none;
+}
+
+button {
+    background-color: var(--text);
+    color: white;
+    cursor: pointer;
+    margin: 0;
+}
+
+lottie-player {
+    width: 300px; 
+    height: 300px;
+    transform: scale(1.05);
+    margin: auto;
+}
+
+#result {
+    display: none;
+    width: 300px;
+    margin: auto;
+    padding: 0.5rem;
+    border: 2px solid var(--text);
+    border-radius: 0.2rem;
+}
+
+footer {
+    margin-top: auto;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+footer a, .github a{
+    color: inherit;
+}
