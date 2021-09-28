@@ -2,7 +2,7 @@
 
 [neoG mark13]
 
-<a href="https://DOB-palindrome-checker.netlify.app/" target="_blank"><img src="" /></a>
+<a href="https://date-of-birth-palindromechecker.netlify.app/" target="_blank">
 
 ## Features
 
