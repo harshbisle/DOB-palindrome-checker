@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <title>DOB Palindrome Checker</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>DOB Palindrome Checker</h1>
+        <p class="github"><a href="https://github.com/harshbisle/DOBpalindromechecker" target="_blank">GitHub Repo</a></p>    
+    </header>
+    
+    <main>
+        <p class="details">Enter your date of birth this app will tell you if it is palindrome or not. If not, will return the nearest palindrome date and the number of days by which you missed it.</p>
+
+        <p class="details">
+            We will test your birthdate in 3 formats: <br>
+            <b>yyyy-mm-dd, mm-dd-yyyy, dd-mm-yyyy</b>
+        </p>
+
+        <form id="form">
+            <input type="date" id="inputDate" required>
+
+            <button type="submit">Palindrome?</button>
+        </form>
+
+        <div class="happy-animation">
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_cxwuprj8.json"  background="transparent"  speed="1" id="happy-lottie" loop autoplay></lottie-player>
+        </div>
+
+        <div class="sad-animation">
+            <lottie-player src="https://assets1.lottiefiles.com/datafiles/AP6eAJ4K8cbfOl9/data.json"  background="transparent"  speed="1" id="sad-lottie" loop autoplay></lottie-player>
+        </div>
+
+        <div class="loading-animation">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_fpcqadle.json"  background="transparent"  speed="1" id="loading-lottie" loop autoplay></lottie-player>
+        </div>
+
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        <a href="https://harshbisle.github.io" target="_blank">Harshavardhan Bisle</a>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
