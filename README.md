@@ -1,8 +1,7 @@
 # Date Of Birth Palindrome Checker
 
-[neoG mark13]
 
-<a href="https://date-of-birth-palindromechecker.netlify.app/" target="_blank">
+[Live Project](https://date-of-birth-palindromechecker.netlify.app/)
 
 ## Features
 
